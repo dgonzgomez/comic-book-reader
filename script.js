@@ -11,26 +11,42 @@ document.addEventListener('DOMContentLoaded', () => {
             const comicId = new URLSearchParams(window.location.search).get('comic');
 
             const COMICS = {
-                'sillyteam-ep1': {
-                    title: 'sillyteam #1',
+                'USM4': {
+                    title: 'Ultimate Spider-Man #4 (2000)',
                     pages: [
-                        'comics/sillyteam/sillyteamep1cover.png',
-                        'comics/sillyteam/page1.png',
-                        'comics/sillyteam/page2.png',
-                        'comics/sillyteam/page3.png',
-                        'comics/sillyteam/page4.png',
-                        'comics/sillyteam/page5.png',
-                        'comics/sillyteam/page6.png',
-                        'comics/sillyteam/page7.png',
-                        'comics/sillyteam/page8.png',
-                        'comics/sillyteam/page9.png'
+                        'comics/USM4/cover.jpg',
+                        'comics/USM4/page1.jpg',
+                        'comics/USM4/page2.jpg',
+                        'comics/USM4/page3.jpg',
+                        'comics/USM4/page4.jpg',
+                        'comics/USM4/page5.jpg',
+                        'comics/USM4/page6.jpg'
                     ]
                 },
-                'villain-ep1': {
-                    title: 'A Villain #1',
+                'USM37': {
+                    title: 'Ultimate Spider-Man #37 (2000)',
                     pages: [
-                        'comics/kasar/cover.png',
-                        'comics/kasar/page1.png'
+                        'comics/USM37/cover.jpg',
+                        'comics/USM37/page1.jpg',
+                        'comics/USM37/page2.jpg',
+                        'comics/USM37/page3.jpg',
+                        'comics/USM37/page4.jpg',
+                        'comics/USM37/page5.jpg',
+                        'comics/USM37/page6.jpg',
+                        'comics/USM37/page7.jpg',
+                        'comics/USM37/page8.jpg',
+                        'comics/USM37/page9.jpg',
+                        'comics/USM37/page10.jpg',
+                        'comics/USM37/page11.jpg',
+                        'comics/USM37/page12.jpg',
+                        'comics/USM37/page13.jpg',
+                        'comics/USM37/page14.jpg',
+                        'comics/USM37/page15.jpg',
+                        'comics/USM37/page16.jpg',
+                        'comics/USM37/page17.jpg',
+                        'comics/USM37/page18.jpg',
+                        'comics/USM37/page19.jpg',
+                        'comics/USM37/page20.jpg'
                     ]
                 }
             };

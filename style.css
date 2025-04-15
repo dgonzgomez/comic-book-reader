@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Kanit", sans-serif;}
+.kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 nav {
@@ -28,11 +38,9 @@ nav {
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
-    /* Remove padding from here since we're controlling spacing with nav-top-section */
 }
 .navButton {
     color: bisque;
-    font-family: comic sans MS;
     text-decoration: none;
     gap: 100px;
 }
@@ -60,7 +68,6 @@ footer {
 
 body {
     background:rgb(215, 254, 255);
-    font-family: Comic Sans MS;
 }
 
 h1 {
